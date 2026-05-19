@@ -12,6 +12,15 @@ Assetszy is an enterprise-grade Workflow Integration Plugin for **DaVinci Resolv
 
 ---
 
+## ✨ Key Features
+* 📹 **Multi-Source Video & Photo Search:** Real-time preview of cinematic footage and high-res photos.
+* 🎨 **Transparent Vectors & Illustrations:** Pre-filtered background-free PNG assets ideal for graphic overlays.
+* 🎵 **Royalty-Free Music & SFX Search:** Real-time audio waveform visualizer and rotating vinyl disk player to test music assets before importing.
+* 📥 **Zero-Setup YouTube Downloader:** Instantly fetch and resolve YouTube clips or high-fidelity audio streams.
+* ⚡ **Seamless Workflow Ingest:** Imports directly into whatever Resolve page you are working on, with no UI interruptions.
+
+---
+
 ## 📺 Video Demonstration
 Watch Assetszy in action inside DaVinci Resolve:
 
@@ -80,15 +89,6 @@ Explore the beautiful dark glassmorphic user interface:
     </tr>
   </table>
 </div>
-
----
-
-## ✨ Key Features
-* 📹 **Multi-Source Video & Photo Search:** Real-time preview of cinematic footage and high-res photos.
-* 🎨 **Transparent Vectors & Illustrations:** Pre-filtered background-free PNG assets ideal for graphic overlays.
-* 🎵 **Royalty-Free Music & SFX Search:** Real-time audio waveform visualizer and rotating vinyl disk player to test music assets before importing.
-* 📥 **Zero-Setup YouTube Downloader:** Instantly fetch and resolve YouTube clips or high-fidelity audio streams.
-* ⚡ **Seamless Workflow Ingest:** Imports directly into whatever Resolve page you are working on, with no UI interruptions.
 
 ---
 
