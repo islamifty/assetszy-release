@@ -1,4 +1,4 @@
-# <div align="center">🌌 Assetszy — Premium DaVinci Resolve Stock Integration</div>
+# <div align="center"><img src="logo.png" alt="Assetszy" width="280" /></div>
 
 <div align="center">
   <img src="https://img.shields.io/badge/DaVinci%20Resolve-Studio%2017%20%7C%2018%20%7C%2019%20%7C%2020%20%7C%2021%2B-DF0B76?style=for-the-badge&logo=davinci-resolve&logoColor=white" alt="Resolve Support" />
@@ -9,6 +9,36 @@
 <br />
 
 Assetszy is an enterprise-grade Workflow Integration Plugin for **DaVinci Resolve Studio**. It bridges the gap between editing and asset sourcing by letting you search, preview, and instantly import premium stock videos, photos, transparent vectors, audio, SFX, and YouTube downloads directly to your active media pool and timeline with a single click.
+
+---
+
+## 🚀 Installation Instructions
+> [!TIP]
+> Follow the steps below for your operating system to quickly install and start using the Assetszy plugin inside DaVinci Resolve Studio.
+
+### 💻 Windows Installation
+1. **Download** the single-file installer: [**`Assetszy_Setup.exe`**](https://github.com/islamifty/assetszy-release/raw/main/Assetszy_Setup.exe)
+2. **Double-click** the setup file.
+3. Click **Install Now** (it automatically locates the Resolve directory).
+4. Restart **DaVinci Resolve Studio**.
+5. Launch from: **Workspace > Workflow Integrations > Assetszy**.
+
+### 🍎 macOS Installation
+Apple Gatekeeper security restricts unsigned apps. Follow these steps to install:
+1. **Download** the zip bundle: [**`Assetszy_Mac.zip`**](https://github.com/islamifty/assetszy-release/raw/main/Assetszy_Mac.zip)
+2. **Extract** the files to a folder.
+3. **Double-click** on **`install-mac.command`** (this opens Terminal, deploys all assets, and automatically runs `xattr` to clear security blocks).
+4. **Provide Administrator Password:** Since this installs the plugin system-wide for DaVinci Resolve, the Terminal window will prompt:
+   ```bash
+   Password:
+   ```
+   Type your Mac lock-screen password and press **Enter** (no characters, stars, or dots will display on the screen while typing due to default Unix terminal security).
+5. *Permission/Execution Fallback (Optional):* If macOS displays a permission error when double-clicking the command file, open Terminal, run the following command, and try double-clicking it again:
+   ```bash
+   chmod +x install-mac.command
+   ```
+6. Restart **DaVinci Resolve Studio**.
+7. Launch from: **Workspace > Workflow Integrations > Assetszy**.
 
 ---
 
@@ -92,29 +122,10 @@ Explore the beautiful dark glassmorphic user interface:
 
 ---
 
-## 🚀 Installation Instructions
-
-### 💻 Windows Installation
-1. **Download** the single-file installer: [**`Assetszy_Setup.exe`**](https://github.com/islamifty/assetszy-release/raw/main/Assetszy_Setup.exe)
-2. **Double-click** the setup file.
-3. Click **Install** (it automatically locates the Resolve directory).
-4. Restart **DaVinci Resolve Studio**.
-5. Launch from: **Workspace > Workflow Integrations > Assetszy**.
-
-### 🍎 macOS Installation
-Apple Gatekeeper security restricts unsigned apps. Follow these steps to bypass:
-1. **Download** the zip bundle: [**`Assetszy_Mac.zip`**](https://github.com/islamifty/assetszy-release/raw/main/Assetszy_Mac.zip)
-2. **Extract** the files to a folder.
-3. **Double-click** on **`install-mac.command`** (this opens Terminal, deploys all assets, and automatically runs `xattr` to clear security blocks).
-4. Restart **DaVinci Resolve Studio**.
-5. Launch from: **Workspace > Workflow Integrations > Assetszy**.
-
----
-
 ## 🛠️ Manual Security Bypass (macOS)
-If you manually copied the folder and macOS displays the *"WorkflowIntegration cannot be opened because developer cannot be verified"* warning, run this command in terminal:
+If you manually copied the folder and macOS displays the *"WorkflowIntegration cannot be opened because developer cannot be verified"* warning, run this command in terminal (requires administrative rights):
 ```bash
-xattr -cr "$HOME/Library/Application Support/Blackmagic Design/DaVinci Resolve/Workflow Integration Plugins/com.assetszy.resolve.plugin"
+sudo xattr -cr "/Library/Application Support/Blackmagic Design/DaVinci Resolve/Workflow Integration Plugins/com.assetszy.resolve.plugin"
 ```
 
 ---
