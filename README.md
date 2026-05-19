@@ -12,36 +12,6 @@ Assetszy is an enterprise-grade Workflow Integration Plugin for **DaVinci Resolv
 
 ---
 
-## 🚀 Installation Instructions
-> [!TIP]
-> Follow the steps below for your operating system to quickly install and start using the Assetszy plugin inside DaVinci Resolve Studio.
-
-### 💻 Windows Installation
-1. **Download** the single-file installer: [**`Assetszy_Setup.exe`**](https://github.com/islamifty/assetszy-release/raw/main/Assetszy_Setup.exe)
-2. **Double-click** the setup file.
-3. Click **Install Now** (it automatically locates the Resolve directory).
-4. Restart **DaVinci Resolve Studio**.
-5. Launch from: **Workspace > Workflow Integrations > Assetszy**.
-
-### 🍎 macOS Installation
-Apple Gatekeeper security restricts unsigned apps. Follow these steps to install:
-1. **Download** the zip bundle: [**`Assetszy_Mac.zip`**](https://github.com/islamifty/assetszy-release/raw/main/Assetszy_Mac.zip)
-2. **Extract** the files to a folder.
-3. **Double-click** on **`install-mac.command`** (this opens Terminal, deploys all assets, and automatically runs `xattr` to clear security blocks).
-4. **Provide Administrator Password:** Since this installs the plugin system-wide for DaVinci Resolve, the Terminal window will prompt:
-   ```bash
-   Password:
-   ```
-   Type your Mac lock-screen password and press **Enter** (no characters, stars, or dots will display on the screen while typing due to default Unix terminal security).
-5. *Permission/Execution Fallback (Optional):* If macOS displays a permission error when double-clicking the command file, open Terminal, run the following command, and try double-clicking it again:
-   ```bash
-   chmod +x install-mac.command
-   ```
-6. Restart **DaVinci Resolve Studio**.
-7. Launch from: **Workspace > Workflow Integrations > Assetszy**.
-
----
-
 ## 📺 Video Demonstration
 Watch Assetszy in action inside DaVinci Resolve:
 
@@ -119,6 +89,36 @@ Explore the beautiful dark glassmorphic user interface:
 * 🎵 **Royalty-Free Music & SFX Search:** Real-time audio waveform visualizer and rotating vinyl disk player to test music assets before importing.
 * 📥 **Zero-Setup YouTube Downloader:** Instantly fetch and resolve YouTube clips or high-fidelity audio streams.
 * ⚡ **Seamless Workflow Ingest:** Imports directly into whatever Resolve page you are working on, with no UI interruptions.
+
+---
+
+## 🚀 Installation Instructions
+> [!TIP]
+> Follow the steps below for your operating system to quickly install and start using the Assetszy plugin inside DaVinci Resolve Studio.
+
+### 💻 Windows Installation
+1. **Download** the single-file installer: [**`Assetszy_Setup.exe`**](https://github.com/islamifty/assetszy-release/raw/main/Assetszy_Setup.exe)
+2. **Double-click** the setup file.
+3. Click **Install Now** (it automatically locates the Resolve directory).
+4. Restart **DaVinci Resolve Studio**.
+5. Launch from: **Workspace > Workflow Integrations > Assetszy**.
+
+### 🍎 macOS Installation
+Apple Gatekeeper security restricts unsigned apps. Follow these steps to install:
+1. **Download** the zip bundle: [**`Assetszy_Mac.zip`**](https://github.com/islamifty/assetszy-release/raw/main/Assetszy_Mac.zip)
+2. **Extract** the files to a folder.
+3. **Double-click** on **`install-mac.command`** (this opens Terminal, deploys all assets, and automatically runs `xattr` to clear security blocks).
+4. **Provide Administrator Password:** Since this installs the plugin system-wide for DaVinci Resolve, the Terminal window will prompt:
+   ```bash
+   Password:
+   ```
+   Type your Mac lock-screen password and press **Enter** (no characters, stars, or dots will display on the screen while typing due to default Unix terminal security).
+5. *Permission/Execution Fallback (Optional):* If macOS displays a permission error when double-clicking the command file, open Terminal, run the following command, and try double-clicking it again:
+   ```bash
+   chmod +x install-mac.command
+   ```
+6. Restart **DaVinci Resolve Studio**.
+7. Launch from: **Workspace > Workflow Integrations > Assetszy**.
 
 ---
 
