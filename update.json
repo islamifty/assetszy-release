@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "downloadUrl": "https://github.com/islamifty/assetszy-release",
-  "changelog": "Initial premium release with zero-setup YouTube downloader, translucent vectors search, and glowing audio player."
+  "changelog": "Fixed Music & SFX search and infinite scroll, optimized webpage social downloader extraction using local yt-dlp backend fallback, and resolved type-coercion parameter crashes."
 }
