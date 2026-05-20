@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "downloadUrl": "https://github.com/islamifty/assetszy-release",
-  "changelog": "Fixed Music & SFX search and infinite scroll, optimized webpage social downloader extraction using local yt-dlp backend fallback, and resolved type-coercion parameter crashes."
+  "changelog": "Integrated YouTube Creative Commons music into the Music search tab with automated audio extraction, implemented audio-only playback visualizer for YouTube cards (no video window), and optimized short clip duration formats."
 }
