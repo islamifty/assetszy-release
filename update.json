@@ -1,5 +1,5 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "downloadUrl": "https://github.com/islamifty/assetszy-release",
-  "changelog": "Integrated YouTube Creative Commons music into the Music search tab with automated audio extraction, implemented audio-only playback visualizer for YouTube cards (no video window), and optimized short clip duration formats."
+  "changelog": "Integrated video editing Inspiration Feed tab directly into the UI, customized Watch overlays, and resolved link click routing to open in external default system browsers instead of DaVinci."
 }
