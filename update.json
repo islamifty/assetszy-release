@@ -1,5 +1,5 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "downloadUrl": "https://github.com/islamifty/assetszy-release",
-  "changelog": "Integrated video editing Inspiration Feed tab directly into the UI, customized Watch overlays, and resolved link click routing to open in external default system browsers instead of DaVinci."
+  "changelog": "Critical stability fixes: Resolved file stream download completion race condition, preserved native Windows backslash path formatting for DaVinci Resolve import API, updated high-availability Cobalt mirrors list, added Failed visual overlays with direct Retry launcher buttons in grids, and updated signature verification."
 }
