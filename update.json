@@ -1,5 +1,5 @@
 {
-  "version": "1.0.4",
+  "version": "1.0.5",
   "downloadUrl": "https://github.com/islamifty/assetszy-release",
-  "changelog": "Critical stability fixes: Resolved file stream download completion race condition, preserved native Windows backslash path formatting for DaVinci Resolve import API, updated high-availability Cobalt mirrors list, added Failed visual overlays with direct Retry launcher buttons in grids, and updated signature verification."
+  "changelog": "Critical Windows stability fix: Resolved DaVinci Resolve Studio audio import failure on Windows by dynamically mapping downloaded YouTube audio streams (.m4a) to container-compatible MPEG-4 (.mp4) format, allowing native ingestion without encoding loss."
 }
