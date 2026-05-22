@@ -18,6 +18,7 @@ Assetszy is an enterprise-grade Workflow Integration Plugin for **DaVinci Resolv
 * 🎵 **Royalty-Free Music & SFX Search:** Real-time audio waveform visualizer and rotating vinyl disk player to test music assets before importing.
 * 📥 **Zero-Setup YouTube Downloader:** Instantly fetch and resolve YouTube clips or high-fidelity audio streams.
 * ⚡ **Seamless Workflow Ingest:** Imports directly into whatever Resolve page you are working on, with no UI interruptions.
+* 🎙️ **Auto-Transcription & Styled Subtitles:** Render and transcribe timeline audio (or isolate specific audio tracks), select Gemini models dynamically from the API, style subtitles globally or individually (font, size, stroke, color, bold/italic) with a real-time preview, and import frame-accurate FCPXML subtitles back into Resolve.
 
 ---
 

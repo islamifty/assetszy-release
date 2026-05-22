@@ -1,5 +1,5 @@
 {
-  "version": "1.0.5",
+  "version": "1.0.6",
   "downloadUrl": "https://github.com/islamifty/assetszy-release",
-  "changelog": "Critical Windows stability fix: Resolved DaVinci Resolve Studio audio import failure on Windows by dynamically mapping downloaded YouTube audio streams (.m4a) to container-compatible MPEG-4 (.mp4) format, allowing native ingestion without encoding loss."
+  "changelog": "Added advanced DaVinci Resolve timeline audio track isolation and dynamic Gemini model selection directly from the Google Gemini API."
 }
