@@ -1,6 +1,6 @@
 {
-  "version": "1.0.9",
+  "version": "1.0.10",
   "url": "https://assetszy.xyz/dist.zip",
   "downloadUrl": "https://github.com/islamifty/assetszy-release",
-  "changelog": "Implemented silent automatic background updates from main server and disabled default GUI update warnings."
+  "changelog": "Configured the plugin to connect to the production server (https://assetszy.xyz/api) out-of-the-box by default."
 }
