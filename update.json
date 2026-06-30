@@ -1,5 +1,5 @@
 {
-  "version": "1.0.6",
+  "version": "1.0.7",
   "downloadUrl": "https://github.com/islamifty/assetszy-release",
-  "changelog": "Added advanced DaVinci Resolve timeline audio track isolation and dynamic Gemini model selection directly from the Google Gemini API."
+  "changelog": "Switched to live production server (assetszy.xyz), added admin panel with license management, premium landing page with download modal, and IDM-compatible download system."
 }
