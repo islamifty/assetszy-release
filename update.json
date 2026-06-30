@@ -1,5 +1,6 @@
 {
   "version": "1.0.9",
+  "url": "https://assetszy.xyz/dist.zip",
   "downloadUrl": "https://github.com/islamifty/assetszy-release",
-  "changelog": "Disabled automatic GitHub-based update checks inside the plugin interface. Desktop app updates will now be managed exclusively through your private VPS server endpoints."
+  "changelog": "Implemented silent automatic background updates from main server and disabled default GUI update warnings."
 }
