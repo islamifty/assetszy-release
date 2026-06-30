@@ -1,5 +1,5 @@
 {
-  "version": "1.0.7",
+  "version": "1.0.8",
   "downloadUrl": "https://github.com/islamifty/assetszy-release",
-  "changelog": "Switched to live production server (assetszy.xyz), added admin panel with license management, premium landing page with download modal, and IDM-compatible download system."
+  "changelog": "Implemented self-healing DaVinci Resolve C++ API connection, resolving the project detection offline bug, and optimized mobile loading speeds."
 }
