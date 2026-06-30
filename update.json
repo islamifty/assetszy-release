@@ -1,5 +1,5 @@
 {
-  "version": "1.0.8",
+  "version": "1.0.9",
   "downloadUrl": "https://github.com/islamifty/assetszy-release",
-  "changelog": "Implemented self-healing DaVinci Resolve C++ API connection, resolving the project detection offline bug, and optimized mobile loading speeds."
+  "changelog": "Disabled automatic GitHub-based update checks inside the plugin interface. Desktop app updates will now be managed exclusively through your private VPS server endpoints."
 }
